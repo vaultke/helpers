@@ -1,0 +1,21 @@
+{
+    "name": "vaultke/helpers",
+    "description": "This package seeks to help php developers configure different functions flawlesly.",
+    "keywords": ["api", "microservices", "library"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ananda Douglas",
+            "email": "douglasdaggs@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "vaultke\\helpers\\": "src/"
+        }
+    }
+}
